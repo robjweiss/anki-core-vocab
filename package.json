@@ -1,0 +1,40 @@
+{
+  "name": "anki-core-vocab",
+  "description": "Anki card templates for core6k/10k vocabulary",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "anki": "QTWEBENGINE_REMOTE_DEBUGGING=8080 flatpak run net.ankiweb.Anki"
+  },
+  "dependencies": {
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "devDependencies": {
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "eslint": "latest",
+    "eslint-config-next": "latest",
+    "sass": "^1.68.0",
+    "typescript": "latest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robjweiss/anki-core-vocab.git"
+  },
+  "keywords": [
+    "anki"
+  ],
+  "author": "Rob Weiss",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/robjweiss/anki-core-vocab/issues"
+  },
+  "homepage": "https://github.com/robjweiss/anki-core-vocab#readme"
+}
